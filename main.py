@@ -16,7 +16,7 @@ model.add(tf.keras.layers.Dense(200, activation="sigmoid"))
 model.add(tf.keras.layers.Dense(20, activation="tanh"))
 model.add(tf.keras.layers.Dense(20, activation="relu"))
 model.add(tf.keras.layers.Dense(260, activation="relu"))
-model.add(tf.keras.layers.Dense(200, activation="relu"))
+model.add(tf.keras.layers.Dense(220, activation="relu"))
 model.add(tf.keras.layers.Dense(200, activation="relu"))
 model.add(tf.keras.layers.Dense(10, activation="softmax"))
 
