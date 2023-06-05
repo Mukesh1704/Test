@@ -18,6 +18,7 @@ model.add(tf.keras.layers.Dense(20, activation="relu"))
 model.add(tf.keras.layers.Dense(260, activation="relu"))
 model.add(tf.keras.layers.Dense(220, activation="relu"))
 model.add(tf.keras.layers.Dense(200, activation="relu"))
+model.add(tf.keras.layers.Dense(200, activation="relu"))
 model.add(tf.keras.layers.Dense(10, activation="softmax"))
 
 model.compile(optimizer="adam", loss="sparse_categorical_crossentropy", metrics=["accuracy"])
